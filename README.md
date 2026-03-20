@@ -1,10 +1,4 @@
-没问题。既然你要的是那种**“直接复制粘贴，一秒提升项目逼格”**的成品，我给你准备了一份极其克制、硬核且对齐了硅谷开源规范的 `README.md`。
 
-这份文档去掉了所有多余的废话，直接突出了你 **985 CS 的工程底色**（Neo4j 架构、BERT 微调、Flask 路由）。
-
-👇 **直接复制下面代码框里的所有内容（包括首尾的 ` ```markdown ` 和 ` ``` `，然后粘贴到你的 `README.md` 文件里）：**
-
-```markdown
 # 🕹️ PlayBook (极客图鉴)
 
 > A semantic-driven gaming community built on Neo4j and BERT. The "Xiaohongshu" (Little Red Book) for hardcore gamers.
@@ -16,11 +10,8 @@
 [![Neo4j](https://img.shields.io/badge/Database-Neo4j-blue.svg)](https://neo4j.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 💡 Philosophy (设计哲学)
+## 💡 Philosophy (设计方法)
 
-Traditional gaming forums are drowning in entropy—disorganized tags, keyword-based search that misses context, and isolated text data. **PlayBook** redefines community content structure:
-1. **Semantic over Keyword:** We fine-tuned a `bert-base-chinese` model to understand gamer-specific jargon and lore, mapping raw posts to a high-dimensional feature space.
-2. **Graph over Relational:** We abandoned legacy relational databases (like MySQL) for Neo4j. In PlayBook, posts, users, and semantic tags are not just rows in a table; they are **interconnected knowledge nodes** forming a giant graph.
 
 传统游戏论坛正深陷于“信息高熵”之中：标签混乱、关键词搜索严重丢失上下文、数据孤岛化。**PlayBook** 彻底重构了内容分发逻辑：
 我们拒绝机械的关键词匹配，而是利用微调后的 BERT 模型进行语义降维；我们摒弃了传统关系型数据库，利用 Neo4j 将用户、帖子、标签构建为一张可无限拓展的图谱网络。
