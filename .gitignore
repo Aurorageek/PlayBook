@@ -1,0 +1,16 @@
+# 
+.env
+config.yaml  
+
+# 2. 
+*.pt
+*.pth
+*.bin
+/models/
+/checkpoints/
+
+# 3. 屏蔽 Python 的运行垃圾
+__pycache__/
+*.py[cod]
+.venv/
+venv/

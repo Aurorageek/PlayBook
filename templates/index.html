@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>小黄书</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color:black; /* 设置背景色为深蓝色 */
+        }
+        .title {
+            color: #FFD700; /* 金黄色标题 */
+            margin-bottom: 40px;
+        }
+        .btn-primary {
+             padding: 10px 20px;
+            font-size: 16px;
+            background-color: darkorange;
+            color: white;
+
+            border:none;
+            border-radius: 10px;
+            cursor: pointer;
+             margin-left: 10px;
+             margin-right: 10px;
+             border: 2px solid darkorange;
+        }
+        .btn {
+            width: 200px;
+            margin-top: 10px;
+        }
+        .logo {
+            position: absolute;
+            top: 24%;
+            left: 45%;
+            width: 150px;
+            height: 150px;
+            background-image: url('/static/logo.png');
+            background-size: cover;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="logo"></h1>
+    <a href="{{ url_for('sign_in') }}" class="btn btn-primary">登录</a>
+    <a href="{{ url_for('create_new_user') }}" class="btn btn-secondary">注册</a>
+</body>
+</html>
